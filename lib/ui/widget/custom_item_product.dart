@@ -130,7 +130,6 @@ class CustomProductItem extends StatelessWidget {
                     horizontal: 6,
                     vertical: 2,
                   ),
-                  height: 18,
                   decoration: BoxDecoration(
                     color: blueColor,
                     borderRadius: BorderRadius.circular(12),
