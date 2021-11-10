@@ -173,108 +173,92 @@ class _HomePageState extends State<HomePage> {
             const SizedBox(height: 12),
             Row(
               children: const [
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Speaker HP 2.0',
-                    discount: 10,
-                    discountPrice: 50000,
-                    price: 180000,
-                    imageUrl: 'assets/images/product1.png',
-                    rating: 5.0,
-                  ),
+                CustomProductItem(
+                  name: 'Speaker HP 2.0',
+                  discount: 10,
+                  discountPrice: 50000,
+                  price: 180000,
+                  imageUrl: 'assets/images/product1.png',
+                  rating: 5.0,
                 ),
                 SizedBox(width: 20),
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Speaker bluetooth hp',
-                    discount: 20,
-                    discountPrice: 80000,
-                    price: 200000,
-                    imageUrl: 'assets/images/product2.png',
-                    rating: 3.0,
-                    setColor: Color(0xff3C7DD9),
-                    isColorOpacity: false,
-                  ),
+                CustomProductItem(
+                  name: 'Speaker bluetooth hp',
+                  discount: 20,
+                  discountPrice: 80000,
+                  price: 200000,
+                  imageUrl: 'assets/images/product2.png',
+                  rating: 3.0,
+                  setColor: Color(0xff3C7DD9),
+                  isColorOpacity: false,
                 ),
               ],
             ),
             const SizedBox(height: 20),
             Row(
               children: const [
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'SmartPhone Vivo s12',
-                    discount: 10,
-                    discountPrice: 1000000,
-                    price: 1800000,
-                    imageUrl: 'assets/images/product3.png',
-                    rating: 5.0,
-                  ),
+                CustomProductItem(
+                  name: 'SmartPhone Vivo s12',
+                  discount: 10,
+                  discountPrice: 1000000,
+                  price: 1800000,
+                  imageUrl: 'assets/images/product3.png',
+                  rating: 5.0,
                 ),
                 SizedBox(width: 20),
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Xiaomi gts500 S2+',
-                    discount: 40,
-                    discountPrice: 5000000,
-                    price: 9000000,
-                    imageUrl: 'assets/images/product4.png',
-                    rating: 9.0,
-                  ),
+                CustomProductItem(
+                  name: 'Xiaomi gts500 S2+',
+                  discount: 40,
+                  discountPrice: 5000000,
+                  price: 9000000,
+                  imageUrl: 'assets/images/product4.png',
+                  rating: 9.0,
                 ),
               ],
             ),
             const SizedBox(height: 20),
             Row(
               children: const [
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Tas Hiking Yellow',
-                    discount: 10,
-                    discountPrice: 90000,
-                    price: 170000,
-                    imageUrl: 'assets/images/product5.png',
-                    rating: 5.0,
-                    setColor: Color(0xffF8CA44),
-                    isColorOpacity: false,
-                  ),
+                CustomProductItem(
+                  name: 'Tas Hiking Yellow',
+                  discount: 10,
+                  discountPrice: 90000,
+                  price: 170000,
+                  imageUrl: 'assets/images/product5.png',
+                  rating: 5.0,
+                  setColor: Color(0xffF8CA44),
+                  isColorOpacity: false,
                 ),
                 SizedBox(width: 20),
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Tas Sekolah Smudge',
-                    discount: 20,
-                    discountPrice: 330000,
-                    price: 160000,
-                    imageUrl: 'assets/images/product6.png',
-                    rating: 3.0,
-                  ),
+                CustomProductItem(
+                  name: 'Tas Sekolah Smudge',
+                  discount: 20,
+                  discountPrice: 330000,
+                  price: 160000,
+                  imageUrl: 'assets/images/product6.png',
+                  rating: 3.0,
                 ),
               ],
             ),
             const SizedBox(height: 20),
             Row(
               children: const [
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Tas Variasi Leci Red',
-                    discount: 10,
-                    discountPrice: 220000,
-                    price: 110000,
-                    imageUrl: 'assets/images/product7.png',
-                    rating: 5.0,
-                  ),
+                CustomProductItem(
+                  name: 'Tas Variasi Leci Red',
+                  discount: 10,
+                  discountPrice: 220000,
+                  price: 110000,
+                  imageUrl: 'assets/images/product7.png',
+                  rating: 5.0,
                 ),
                 SizedBox(width: 20),
-                Expanded(
-                  child: CustomProductItem(
-                    name: 'Yellow Bag Custom',
-                    discount: 20,
-                    discountPrice: 50000,
-                    price: 122000,
-                    imageUrl: 'assets/images/product8.png',
-                    rating: 3.0,
-                  ),
+                CustomProductItem(
+                  name: 'Yellow Bag Custom',
+                  discount: 20,
+                  discountPrice: 50000,
+                  price: 122000,
+                  imageUrl: 'assets/images/product8.png',
+                  rating: 3.0,
                 ),
               ],
             ),
